@@ -1,12 +1,16 @@
-import Main from "./components/Main";
-import Description from "./components/Description";
+import Info from "./components/Info";
+import About from "./components/About";
+import Interests from "./components/Interests"
+import Footer from "./components/Footer";
 
 export default function App () {
     return(
     <div className="page-container">
         <div className="page">
-            <Main/>
-            <Description/>
+            <Info/>
+            <About/>
+            <Interests/>
+            <Footer/>
         </div>
     </div>
     )
